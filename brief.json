@@ -1,0 +1,292 @@
+{
+  "run_id": "run-1779659877022",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Aide les professionnels qui travaillent à l'international à éviter les malentendus culturels en suggérant des…",
+    "notes": "Ajustez le ton de vos emails et messages professionnels pour qu'ils correspondent aux normes culturelles et de communication de divers pays.\nTargeting specific cultural communication nuances (directness vs. indirectness, formality levels). Should offer multiple suggestions and explanations. Focus on business communication.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "generator",
+      "tool"
+    ],
+    "forced_design_theme": "swiss-signal",
+    "forced_structure_preset": "quick-compare-strip",
+    "site_idea_title": "Adaptateur de Ton pour Communications Professionnelles Internationales",
+    "site_idea_summary": "Ajustez le ton de vos emails et messages professionnels pour qu'ils correspondent aux normes culturelles et de communication de divers pays."
+  },
+  "site_spec": {
+    "slug": "adaptateur-de-ton-pour-communications-professio-33413850",
+    "theme": {
+      "name": "Swiss Signal",
+      "slug": "swiss-signal",
+      "eyebrow": "Precision Layout",
+      "family": "swiss-signal",
+      "moods": [
+        "clean",
+        "precise",
+        "professional",
+        "trustworthy"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "finance",
+        "insurance",
+        "comparison",
+        "b2b",
+        "compliance"
+      ],
+      "keywords": [
+        "trust",
+        "precision",
+        "clarity",
+        "comparison",
+        "professional"
+      ],
+      "token_index": [
+        "b2b",
+        "calculator",
+        "clarity",
+        "clean",
+        "comparison",
+        "compliance",
+        "finance",
+        "generator",
+        "insurance",
+        "layout",
+        "precise",
+        "precision",
+        "professional",
+        "signal",
+        "swiss",
+        "tool",
+        "trust",
+        "trustworthy"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Syne\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "swiss",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "grid",
+      "hero_template": "1fr 1fr",
+      "seo_template": "1.45fr 0.55fr",
+      "feature_columns": 3,
+      "faq_columns": 4,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "#f8fafc",
+        "surface": "rgba(255,255,255,0.9)",
+        "surface_border": "rgba(15,23,42,0.16)",
+        "text": "#0f172a",
+        "muted": "#475569",
+        "accent": "#ef4444",
+        "accent_alt": "#0f172a",
+        "hero_glow": "rgba(239, 68, 68, 0.12)",
+        "button_text": "#0f172a",
+        "panel_alt": "rgba(248,250,252,0.96)",
+        "shadow": "0 24px 70px rgba(15, 23, 42, 0.08)",
+        "input_fill": "rgba(15,23,42,0.03)"
+      }
+    },
+    "structure": {
+      "name": "Quick Compare Strip",
+      "slug": "quick-compare-strip",
+      "hero_variant": "tool-first",
+      "proof_variant": "metrics",
+      "section_order": [
+        "proof",
+        "features",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "compare-strip",
+      "moods": [
+        "direct",
+        "fast",
+        "comparison"
+      ],
+      "archetypes": [
+        "calculator",
+        "tool"
+      ],
+      "niches": [
+        "insurance",
+        "finance",
+        "quotes",
+        "switching"
+      ],
+      "keywords": [
+        "compare",
+        "choices",
+        "fast",
+        "matrix"
+      ],
+      "token_index": [
+        "calculator",
+        "choices",
+        "compare",
+        "comparison",
+        "direct",
+        "faq",
+        "fast",
+        "features",
+        "finance",
+        "first",
+        "insurance",
+        "matrix",
+        "metrics",
+        "proof",
+        "quick",
+        "quotes",
+        "seo",
+        "strip",
+        "switching",
+        "tool"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Adaptateur de Ton pour Communications Professionnelles Internationales",
+    "tagline": "Analysez et Adaptez",
+    "description": "Ajustez le ton de vos emails et messages professionnels pour qu",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Adapter le Ton",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Adapter le Ton",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "Adaptateur de Ton pour Communications Professionnelles Internationales",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Adaptateur de Ton pour Communications Professionnelles Internationales ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Adaptateur de Ton pour Communications Professionnelles Internationales et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Adaptateur de Ton pour Communications Professionnelles Internationales | Analysez et Adaptez</title>\n    <meta name=\"description\" content=\"Ajustez le ton de vos emails et messages professionnels pour qu\">\n    <style>\n        :root {\n            --color-primary: #0056B3;\n            --color-secondary: #007BFF;\n            --color-text: #333;\n            --color-background: #F8F9FA;\n            --color-light-gray: #E9ECEF;\n            --color-white: #FFFFFF;\n            --font-serif: 'Georgia', serif;\n            --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n            --shadow-light: 0 2px 4px rgba(0,0,0,0.05);\n            --border-radius: 6px;\n        }\n        body {\n            font-family: var(--font-sans);\n            line-height: 1.6;\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n        }\n        header {\n            background-color: var(--color-primary);\n            color: var(--color-white);\n            padding: 2.5rem 1rem;\n            text-align: center;\n            box-shadow: var(--shadow-light);\n        }\n        header h1 {\n            font-family: var(--font-serif);\n            font-size: 2.8rem;\n            margin-bottom: 0.8rem;\n            letter-spacing: -0.03em;\n        }\n        header p {\n            font-size: 1.25rem;\n            max-width: 800px;\n            margin: 0 auto;\n        }\n        .container {\n            max-width: 1000px;\n            margin: 3rem auto;\n            padding: 0 1.5rem;\n            display: grid;\n            gap: 2rem;\n            grid-template-columns: 1fr;\n        }\n        .panel {\n            background-color: var(--color-white);\n            padding: 2rem;\n            border-radius: var(--border-radius);\n            box-shadow: var(--shadow-light);\n        }\n        .panel h2 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 1.8rem;\n            margin-top: 0;\n            margin-bottom: 1.5rem;\n            border-bottom: 2px solid var(--color-light-gray);\n            padding-bottom: 0.8rem;\n        }\n        label {\n            display: block;\n            margin-bottom: 0.6rem;\n            font-weight: bold;\n            color: var(--color-primary);\n        }\n        textarea, select, input[type=\"text\"] {\n            width: 100%;\n            padding: 0.8rem;\n            margin-bottom: 1.2rem;\n            border: 1px solid var(--color-light-gray);\n            border-radius: var(--border-radius);\n            font-family: var(--font-sans);\n            font-size: 1rem;\n            box-sizing: border-box;\n        }\n        button {\n            background-color: var(--color-secondary);\n            color: var(--color-white);\n            padding: 1rem 1.8rem;\n            border: none;\n            border-radius: var(--border-radius);\n            font-size: 1.1rem;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n            display: block;\n            width: auto;\n            margin-left: auto;\n        }\n        button:hover {\n            background-color: #0069D9;\n        }\n        .result-section {\n            margin-top: 2rem;\n            border-top: 1px solid var(--color-light-gray);\n            padding-top: 2rem;\n        }\n        .result-section h3 {\n            font-family: var(--font-serif);\n            color: var(--color-secondary);\n            font-size: 1.5rem;\n            margin-bottom: 1rem;\n        }\n        .result-item {\n            background-color: var(--color-light-gray);\n            padding: 1rem 1.5rem;\n            border-radius: var(--border-radius);\n            margin-bottom: 1rem;\n            border-left: 5px solid var(--color-primary);\n        }\n        .result-item p {\n            margin: 0.5rem 0;\n            font-size: 1.05rem;\n        }\n        .result-item strong {\n            color: var(--color-primary);\n        }\n\n        .seo-section {\n            background-color: #F0F3F7;\n            padding: 3rem 1.5rem;\n            margin-top: 4rem;\n            text-align: center;\n            border-top: 1px solid var(--color-light-gray);\n        }\n        .seo-section h2 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 2rem;\n            margin-bottom: 1.5rem;\n        }\n        .seo-section p {\n            max-width: 800px;\n            margin: 0 auto 1.5rem auto;\n            font-size: 1rem;\n            line-height: 1.7;\n        }\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n            gap: 0.8rem;\n            max-width: 900px;\n            margin: 0 auto;\n        }\n        .seo-section li {\n            background-color: var(--color-white);\n            border: 1px solid var(--color-light-gray);\n            border-radius: var(--border-radius);\n            padding: 0.6rem 1.2rem;\n            font-size: 0.9rem;\n            color: var(--color-text);\n            box-shadow: var(--shadow-light);\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n            }\n            .main-content {\n                grid-column: 1 / 2;\n            }\n            .sidebar {\n                grid-column: 2 / 3;\n            }\n            .main-content, .sidebar {\n                grid-row: 1 / 3; /* Allows main content to span across both rows if needed */\n            }\n            .panel.tool-output {\n                grid-column: 1 / 3; /* Output takes full width below input */\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://adaptateur-de-ton-pour-communications-professio-33413850.onrender.com\">\n    <meta property=\"og:title\" content=\"Adaptateur de Ton pour Communications Professionnelles Internationales\">\n    <meta property=\"og:description\" content=\"Ajustez le ton de vos emails et messages professionnels pour qu\">\n    <meta property=\"og:url\" content=\"https://adaptateur-de-ton-pour-communications-professio-33413850.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Adaptateur de Ton pour Communications Professionnelles Internationales\", \"description\": \"Ajustez le ton de vos emails et messages professionnels pour qu\", \"url\": \"https://adaptateur-de-ton-pour-communications-professio-33413850.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"adaptateur-de-ton-pour-communications-professio-33413850\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <h1>Adaptateur de Ton pour Communications Internationales</h1>\n        <p>Ajustez le ton de vos emails et messages professionnels pour qu'ils correspondent aux normes culturelles et de communication de divers pays. Évitez les malentendus et bâtissez des relations solides.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"panel main-content\">\n            <h2>Analysez et Adaptez</h2>\n            <form id=\"tool-form\">\n                <label for=\"message-input\">Votre message original (Email, Note, Proposition) :</label>\n                <textarea id=\"message-input\" rows=\"8\" placeholder=\"Cher Monsieur/Madame, je vous écris concernant...\"></textarea>\n\n                <label for=\"target-culture\">Pays ou culture cible :</label>\n                <select id=\"target-culture\">\n                    <option value=\"us\">États-Unis (Direct, orienté résultats)</option>\n                    <option value=\"uk\">Royaume-Uni (Poli, indirect, sous-entendus)</option>\n                    <option value=\"fr\" selected>France (Formel, structuré, précis)</option>\n                    <option value=\"de\">Allemagne (Direct, factuel, structuré)</option>\n                    <option value=\"jp\">Japon (Indirect, respectueux, harmonie)</option>\n                    <option value=\"cn\">Chine (Indirect, relations, harmonie)</option>\n                    <option value=\"br\">Brésil (Chaleureux, expressif, relations)</option>\n                    <option value=\"in\">Inde (Hiérarchique, respectueux, formel)</option>\n                </select>\n\n                <label for=\"formality-level\">Niveau de formalité souhaité :</label>\n                <select id=\"formality-level\">\n                    <option value=\"very-formal\">Très Formel</option>\n                    <option value=\"formal\" selected>Formel</option>\n                    <option value=\"neutral\">Neutre</option>\n                    <option value=\"informal\">Informel</option>\n                </select>\n\n                <button type=\"submit\" id=\"tool-submit\">Adapter le Ton</button>\n            </form>\n        </div>\n\n        <div class=\"panel sidebar\">\n            <h2>Pourquoi l'adapter ?</h2>\n            <p>Dans un contexte professionnel international, un message peut être perçu très différemment selon la culture. Un ton trop direct peut être impoli, un ton trop indirect peut manquer de clarté.</p>\n            <p>Notre outil vous aide à naviguer ces subtilités, en vous proposant des formulations qui respectent les normes locales et renforcent votre crédibilité.</p>\n            <p>Que ce soit pour une négociation, une simple demande ou un suivi client, chaque mot compte pour bâtir des ponts et non des murs.</p>\n            <button data-affiliate-slot=\"premium-features-cta\">Découvrez nos Fonctionnalités Premium</button>\n        </div>\n\n        <div class=\"panel tool-output\">\n            <h2>Suggestions d'Adaptation</h2>\n            <div id=\"tool-result\">\n                <p id=\"result-detail\">Vos suggestions adaptées apparaîtront ici.</p>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"seo-section\">\n        <h2>Optimisez Votre Communication Globale</h2>\n        <p>Dans un marché international de plus en plus connecté, maîtriser les nuances de la communication interculturelle est un atout stratégique. Notre outil vous accompagne pour affiner vos messages et assurer leur efficacité, où que vous soyez et quel que soit votre interlocuteur.</p>\n        <ul>\n            <li>Communication interculturelle affaires</li>\n            <li>Adapter email international</li>\n            <li>Nuances culturelles communication professionnelle</li>\n            <li>Éviter malentendus interculturels</li>\n            <li>Conseils communication globale</li>\n            <li>Formalité message professionnel pays</li>\n            <li>Outil adaptation ton email</li>\n            <li>Marketing international communication</li>\n            <li>Rédiger email pour l'étranger</li>\n            <li>Gestion des communications multiculturelles</li>\n        </ul>\n    </div>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const messageInput = document.getElementById('message-input').value;\n            const targetCulture = document.getElementById('target-culture').value;\n            const formalityLevel = document.getElementById('formality-level').value;\n            const resultDiv = document.getElementById('tool-result');\n\n            if (!messageInput.trim()) {\n                resultDiv.innerHTML = '<p style=\"color: #D32F2F;\">Veuillez saisir un message pour l\\'analyse.</p>';\n                return;\n            }\n\n            const cultureRules = {\n                'us': {\n                    name: 'États-Unis',\n                    directness: 'directe',\n                    formality: {\n                        'very-formal': 'Très formel (ex: correspondances légales, documents officiels). Utilisez des titres complets (Mr./Ms. Last Name). Terminez par \"Sincerely,\" ou \"Respectfully,\".',\n                        'formal': 'Formel (ex: premiers contacts, communications importantes). Optez pour un langage clair, direct mais poli. \"Dear [Name],\" \"Best regards,\".',\n                        'neutral': 'Neutre (ex: communications internes, suivi projet). \"Hi [Name],\" \"Thanks,\".',\n                        'informal': 'Informel (ex: équipe proche, culture startup). \"Hey,\" \"Cheers,\".',\n                    },\n                    nuances: 'Mise en avant des points clés dès le début. Préférer le concret aux longues introductions. Valorisation de l\\'efficacité et des résultats.',\n                    phrases: [\n                        'Soyez concis et direct. Exprimez clairement votre demande ou objectif dès la première phrase.',\n                        'Utilisez des titres honorifiques (Mr./Ms.) jusqu\\'à ce qu\\'une relation plus informelle soit établie.',\n                        'Évitez les longues salutations ou remerciements excessifs ; allez droit au but tout en restant poli.',\n                        'Focus sur l\\'action et les étapes suivantes. \"Let me know if you have any questions,\" est courant.',\n                        'Un ton positif et optimiste est souvent apprécié.'\n                    ]\n                },\n                'uk': {\n                    name: 'Royaume-Uni',\n                    directness: 'indirecte, polie',\n                    formality: {\n                        'very-formal': 'Très formel (ex: lettres officielles, correspondances avec des figures d\\'autorité). \"Dear Sir/Madam,\" \"Yours faithfully/sincerely,\".',\n                        'formal': 'Formel (ex: communications externes, contacts initiaux). \"Dear [Name],\" \"Kind regards,\" ou \"Best wishes,\".',\n                        'neutral': 'Neutre (ex: collègues, emails fonctionnels). \"Hi [Name],\" \"Many thanks,\".',\n                        'informal': 'Informel (ex: amis proches, messages rapides). \"Hi,\" \"Cheers,\".',\n                    },\n                    nuances: 'La politesse et l\\'euphémisme sont clés. L\\'humour subtil peut être présent. L\\'objectif est de ne pas paraître trop exigeant ou brusque.',\n                    phrases: [\n                        'Utilisez des formules de politesse élaborées et des phrases \"tampons\" pour adoucir les demandes (e.g., \"I was wondering if...\", \"Would it be possible...?\").',\n                        'L\\'humour peut être présent, mais avec prudence et si la relation le permet.',\n                        'La communication est souvent plus indirecte pour éviter la confrontation directe. Les \"non\" sont souvent formulés comme \"I\\'m afraid I can\\'t...\"',\n                        'Une expression de gratitude est souvent attendue. \"Many thanks for your understanding,\".',\n                        'Évitez l\\'enthousiasme excessif ; un ton plus réservé est généralement préféré.'\n                    ]\n                },\n                'fr': {\n                    name: 'France',\n                    directness: 'formelle, structurée',\n                    formality: {\n                        'very-formal': 'Très formel (ex: communications officielles, hiérarchiques). \"Monsieur/Madame le Directeur,\" \"Veuillez agréer, Monsieur/Madame, l\\'expression de mes salutations distinguées.\"',\n                        'formal': 'Formel (ex: clients, partenaires, premiers contacts). \"Cher Monsieur/Madame,\" \"Cordialement,\" ou \"Dans l\\'attente de votre retour,\".',\n                        'neutral': 'Neutre (ex: collègues de même niveau, après plusieurs échanges). \"Bonjour [Prénom],\" \"Bien à vous,\".',\n                        'informal': 'Informel (ex: équipe très proche, amis). \"Salut,\" \"À bientôt,\".',\n                    },\n                    nuances: 'Importance de la structure, de la logique et de la précision. Le respect de la hiérarchie et des titres est crucial. Appréciation de l\\'éloquence et de la clarté.',\n                    phrases: [\n                        'Commencez par une salutation formelle et un titre approprié (Monsieur, Madame, Dr, etc.).',\n                        'Structurez votre message avec des paragraphes clairs et une logique déroulée. L\\'introduction et la conclusion sont importantes.',\n                        'Utilisez des formules de politesse de clôture plus élaborées qu\\'un simple \"Cordialement\" si le contexte est formel.',\n                        'La langue doit être précise et correcte. Les erreurs grammaticales ou de syntaxe sont mal perçues.',\n                        'Évitez l\\'humour ou les familiarités lors des premiers échanges, même si l\\'atmosphère peut s\\'adoucir par la suite.'\n                    ]\n                },\n                'de': {\n                    name: 'Allemagne',\n                    directness: 'directe, factuelle',\n                    formality: {\n                        'very-formal': 'Très formel (ex: contextes légaux, haute hiérarchie). \"Sehr geehrte(r) Herr/Frau [Nachname],\" \"Mit freundlichen Grüßen,\".',\n                        'formal': 'Formel (ex: premiers contacts, communications importantes). \"Sehr geehrte(r) Herr/Frau [Nachname],\" \"Mit freundlichen Grüßen,\".',\n                        'neutral': 'Neutre (ex: collègues familiers). \"Hallo [Vorname],\" \"Viele Grüße,\".',\n                        'informal': 'Informel (ex: amis proches, startup). \"Hallo,\" \"VG,\" (pour Viele Grüße).',\n                    },\n                    nuances: 'La clarté, la précision et l\\'efficacité sont très valorisées. Les messages sont souvent concis et vont droit au but. Le respect des règles et des procédures est fondamental.',\n                    phrases: [\n                        'Soyez direct et factuel. Présentez l\\'information de manière claire et logique, sans fioritures.',\n                        'Utilisez toujours les titres académiques et professionnels (Dr., Professor, Direktor) si vous les connaissez.',\n                        'La structure du message est importante. Allez droit au but sans longue introduction.',\n                        'La ponctualité dans les réponses est appréciée.',\n                        'Évitez l\\'humour ou les expressions trop émotionnelles dans les communications écrites professionnelles.'\n                    ]\n                },\n                'jp': {\n                    name: 'Japon',\n                    directness: 'indirecte, harmonie',\n                    formality: {\n                        'very-formal': 'Très formel (ex: clients importants, hiérarchie). \"拝啓\" (Haikei - salutation d\\'ouverture), \"謹啓\" (Kinkei - salutation très formelle). \"敬具\" (Keigu - salutation de clôture).',\n                        'formal': 'Formel (ex: partenaires, contacts externes). Salutations saisonnières, puis le but. \"お世話になっております\" (Osewa ni natte orimasu - \"Merci de votre soutien/travail\"). \"よろしくお願いいたします\" (Yoroshiku onegai itashimasu - \"Veuillez me soutenir, prenez soin de cela\").',\n                        'neutral': 'Neutre (ex: collègues, email interne). Souvent pas de salutation explicite, ou \"お疲れ様です\" (Otsukaresama desu - \"Merci pour votre travail\").',\n                        'informal': 'Informel (ex: amis proches, jeunes collègues). \"お元気ですか\" (Ogenki desu ka - \"Comment allez-vous ?\")',\n                    },\n                    nuances: 'L\\'harmonie du groupe, le respect de la hiérarchie et l\\'indirectness sont primordiaux. Les requêtes sont souvent formulées avec de nombreux adoucisseurs. Le contexte est essentiel.',\n                    phrases: [\n                        'Commencez toujours par une salutation qui reconnaît la relation (ex: \"Merci pour votre travail continu\" ou \"J\\'espère que vous allez bien\").',\n                        'Les demandes sont souvent précédées d\\'excuses pour déranger ou d\\'une reconnaissance de la difficulté de la demande (ex: \"Je suis désolé de vous déranger, mais...\").',\n                        'Utilisez un langage honorifique (Keigo) pour montrer le respect à votre interlocuteur.',\n                        'L\\'objectif du message doit souvent être \"suggéré\" plutôt que directement énoncé. Le destinataire doit \"lire entre les lignes\".',\n                        'Terminez par une formule qui exprime le désir de coopération ou de soutien futur (ex: \"Nous espérons pouvoir continuer à travailler avec vous\").'\n                    ]\n                },\n                'cn': {\n                    name: 'Chine',\n                    directness: 'indirecte, relations',\n                    formality: {\n                        'very-formal': 'Très formel (ex: affaires gouvernementales, très haute hiérarchie). \"尊敬的 [Titre] [Nom],\" \"此致 敬礼\" (Cǐ zhì jìnglǐ - \"Avec mes respects et salutations\").',\n                        'formal': 'Formel (ex: partenaires, clients importants). \"亲爱的 [Nom de famille et titre],\" \"此致 敬礼\" ou \"祝好\" (Zhù hǎo - \"Meilleurs vœux\").',\n                        'neutral': 'Neutre (ex: collègues, contacts réguliers). \"你好 [Nom],\" \"谢谢\" (Xièxiè - \"Merci\").',\n                        'informal': 'Informel (ex: amis proches). \"嗨,\" \"再见\" (Zàijiàn - \"Au revoir\").',\n                    },\n                    nuances: 'La construction de relations (Guanxi), le respect de la hiérarchie et l\\'harmonie sociale sont très importants. La communication est souvent indirecte pour préserver la face et éviter la confrontation.',\n                    phrases: [\n                        'Commencez par une salutation respectueuse, en utilisant le nom de famille et le titre si approprié.',\n                        'L\\'établissement de la relation et des marques de respect sont souvent prioritaires sur l\\'objectif immédiat du message.',\n                        'Les requêtes sont souvent formulées indirectement. Il peut être nécessaire de donner beaucoup de contexte avant de faire une demande.',\n                        'La \"perte de face\" est à éviter à tout prix. Évitez les critiques directes ou les confrontations.',\n                        'Une réponse positive même si l\\'on ne peut pas aider immédiatement est souvent un signe de respect. Suivi et persévérance sont appréciés.'\n                    ]\n                },\n                'br': {\n                    name: 'Brésil',\n                    directness: 'chaleureuse, expressive',\n                    formality: {\n                        'very-formal': 'Très formel (ex: documents légaux, autorités). \"Exmo(a) Senhor(a),\" \"Com os nossos melhores cumprimentos,\".',\n                        'formal': 'Formel (ex: premiers contacts, clients). \"Prezado(a) Senhor(a) [Nom],\" \"Atenciosamente,\" ou \"Cordialmente,\".',\n                        'neutral': 'Neutre (ex: collègues, contacts fréquents). \"Olá [Nome],\" \"Abraços\" ou \"Até mais,\".',\n                        'informal': 'Informel (ex: amis, équipe proche). \"Oi,\" \"Beijos/Abraços,\".',\n                    },\n                    nuances: 'La communication est souvent chaleureuse, personnelle et expressive. La construction de relations personnelles est très valorisée. Il y a une tolérance plus élevée pour l\\'informalité une fois une relation établie.',\n                    phrases: [\n                        'Commencez par une salutation chaleureuse. \"Prezado(a)\" est courant et respectueux.',\n                        'N\\'hésitez pas à inclure des marques de politesse et de considération personnelle (ex: \"J\\'espère que vous allez bien\").',\n                        'La communication peut être plus verbale et émotionnelle. L\\'expression des sentiments est plus acceptée.',\n                        'La flexibilité et l\\'adaptabilité sont valorisées. Soyez prêt à des changements de plans ou des discussions plus longues que prévu.',\n                        'Les formules de clôture peuvent être plus personnelles comme \"Abraços\" (câlins) même dans un contexte professionnel si la relation le permet.'\n                    ]\n                },\n                'in': {\n                    name: 'Inde',\n                    directness: 'formelle, hiérarchique',\n                    formality: {\n                        'very-formal': 'Très formel (ex: hauts dirigeants, communications officielles). \"Respected Sir/Madam,\" \"Yours Faithfully/Sincerely,\".',\n                        'formal': 'Formel (ex: premiers contacts, clients). \"Dear Mr./Ms. [Last Name],\" \"Regards,\" ou \"Best regards,\".',\n                        'neutral': 'Neutre (ex: collègues, après plusieurs échanges). \"Hi [First Name],\" \"Thanks & Regards,\".',\n                        'informal': 'Informel (ex: amis proches). \"Hello,\" \"Cheers,\".',\n                    },\n                    nuances: 'Le respect de la hiérarchie et de l\\'ancienneté est primordial. La communication est souvent indirecte pour préserver la face. Le titre et le statut ont un poids important.',\n                    phrases: [\n                        'Utilisez des titres honorifiques (Mr./Ms./Dr.) et le nom de famille. \"Respected Sir/Madam\" est une salutation très respectueuse.',\n                        'La communication est souvent plus indirecte. Les requêtes peuvent être formulées comme des suggestions ou des questions plutôt que des demandes directes.',\n                        'Les remerciements et les marques de respect pour le temps et l\\'effort de l\\'interlocuteur sont importants.',\n                        'La hiérarchie influence grandement le ton. Adaptez-vous à la position de votre interlocuteur.',\n                        'La flexibilité est importante. Soyez patient et prêt à suivre les procédures établies.'\n                    ]\n                }\n            };\n\n            const selectedCulture = cultureRules[targetCulture];\n            const selectedFormality = selectedCulture.formality[formalityLevel];\n\n            let suggestions = `\n                <h3>Pour la culture : ${selectedCulture.name}</h3>\n                <div class=\"result-item\">\n                    <p><strong>Niveau de formalité ciblé :</strong> ${selectedFormality}</p>\n                    <p><strong>Directness générale :</strong> La communication est généralement ${selectedCulture.directness}.</p>\n                </div>\n                <div class=\"result-item\">\n                    <p><strong>Nuances culturelles clés :</strong> ${selectedCulture.nuances}</p>\n                </div>\n                <div class=\"result-item\">\n                    <p><strong>Suggestions de formulation :</strong></p>\n                    <ul>\n            `;\n\n            selectedCulture.phrases.forEach(phrase => {\n                suggestions += `<li>${phrase}</li>`;\n            });\n\n            suggestions += `\n                    </ul>\n                </div>\n                <div class=\"result-item\">\n                    <p><strong>Exemple d'adaptation de votre message :</strong></p>\n                    <p><em>(Simulation, basée sur les règles et votre message)</em></p>\n            `;\n\n            // Simple simulation based on rules and input\n            let adaptedMessage = messageInput;\n            // Example: replace common French closing for US\n            if (targetCulture === 'us') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'Best regards,');\n                adaptedMessage = adaptedMessage.replace(/(Monsieur|Madame),/gi, 'Mr./Ms.,');\n                adaptedMessage = adaptedMessage.replace(/Je vous écris concernant/gi, 'I am writing regarding');\n            } else if (targetCulture === 'uk') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'Kind regards,');\n                adaptedMessage = adaptedMessage.replace(/Je vous écris concernant/gi, 'I hope you are well. I was wondering if...');\n            } else if (targetCulture === 'de') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'Mit freundlichen Grüßen,');\n                adaptedMessage = adaptedMessage.replace(/(Monsieur|Madame),/gi, 'Sehr geehrte(r) Herr/Frau,');\n                adaptedMessage = adaptedMessage.replace(/Je vous écris concernant/gi, 'Betreffend...');\n            } else if (targetCulture === 'jp') {\n                adaptedMessage = 'お世話になっております。\\n' + adaptedMessage; // Add a common opening\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'よろしくお願いいたします。\\n');\n            } else if (targetCulture === 'cn') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, '此致 敬礼\\n');\n                adaptedMessage = adaptedMessage.replace(/Je vous écris concernant/gi, '关于...');\n            } else if (targetCulture === 'br') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'Atenciosamente,\\n');\n                adaptedMessage = adaptedMessage.replace(/(Monsieur|Madame),/gi, 'Prezado(a) Senhor(a),');\n            } else if (targetCulture === 'in') {\n                adaptedMessage = adaptedMessage.replace(/(Cordialement|Bien à vous|Dans l'attente de votre retour|Sincères salutations),/gi, 'Regards,\\n');\n                adaptedMessage = adaptedMessage.replace(/(Monsieur|Madame),/gi, 'Dear Mr./Ms.,');\n            }\n            adaptedMessage = adaptedMessage.replace(/Cordialement/gi, selectedFormality.split(',')[0].trim() + ','); // Use first part of formality as closing\n\n            suggestions += `<pre style=\"white-space: pre-wrap; word-wrap: break-word; font-family: var(--font-sans); background-color: var(--color-white); padding: 1rem; border: 1px dashed var(--color-primary); border-radius: var(--border-radius);\">${adaptedMessage}</pre>`;\n            suggestions += `</div>`;\n\n\n            resultDiv.innerHTML = suggestions;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
